@@ -2,8 +2,7 @@ const router = require("express").Router();
 
 
 router.get("/signup", (req, res, next) => {
-    res.send("this is signup")
-  //res.render("index");
+    res.render("auth/signup");
 });
 
 module.exports = router;
